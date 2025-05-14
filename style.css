@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+header {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+main {
+    margin: 10% 0;
+}
+
+h1 {
+    font-size: 48px;
+    color: #00d4ff;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 18px;
+    color: #00d4ff;
+}
+
+.social-media {
+    list-style: none;
+    padding: 0;
+}
+
+.social-media li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.social-media a {
+    color: #00d4ff;
+    text-decoration: none;
+}
+.gridparent{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    padding: 20px;
+}
+.gridparent .grid{
+    background-color: #f0f0f018;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0);
+    text-align: center;
+}
+
+.gridparent .grid a {
+    all: none;
+}
+
+.gridparent .grid a button{
+    background-color: #00d4ff;
+    border-radius: 5in;
+    padding: 10px;
+    border-color: transparent;
+}
