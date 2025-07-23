@@ -46,6 +46,12 @@ h3 {
     color: #00d4ff;
 }
 
+sup {
+    font-size: 18px;
+}
+sub {
+    font-size: 14px;
+}
 .social-media {
     list-style: none;
     padding: 0;
